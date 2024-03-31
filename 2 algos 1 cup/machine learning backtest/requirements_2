@@ -1,0 +1,10 @@
+backtesting
+joblib
+scikit-learn
+tensorflow==2.14.0
+keras
+pandas
+numpy
+matplotlib
+plotly
+pprint
