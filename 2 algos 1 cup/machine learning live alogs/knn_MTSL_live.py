@@ -273,7 +273,9 @@ def alert(side, price=0, ltsm_forecast=0, knn_forecast=0):
     Model: {lstm_model_filename}
     
     --> DEBUG ALERT <--
+    
 =======
+    '''
 DISCORD_WEBHOOK_URL_ZD = 'https://discord.com/api/webhooks//--'
 DISCORD_WEBHOOK_URL_CORNIX = 'https://discord.com/api/webhooks//-'
 DISCORD_WEBHOOK_URL_aLca = 'https://discord.com/api/webhooks//-'
@@ -315,7 +317,7 @@ def alert(side, price=0, ltsm_forecast=0, knn_forecast=0):
     LTSM Forecast: {ltsm_forecast}
     Model: {lstm_model_filename}
     
-    --> DEBUG ALERT <--
+    # --> DEBUG ALERT <--
     '''
 
     stub_tele = f'''
