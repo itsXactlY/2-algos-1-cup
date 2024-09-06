@@ -2,7 +2,7 @@ backtesting
 joblib
 scikit-learn
 tensorflow==2.14.0
-keras==2.15.0
+keras==3.2.0
 pandas
 numpy
 matplotlib
